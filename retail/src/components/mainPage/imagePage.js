@@ -11,12 +11,11 @@ class ImagePage extends Component {
         const { classes } = this.props;
         return (
             <div className={classes.myBackground}>
-                <h1>Teste</h1>
-                <h1>Teste</h1>
-                <h1>Teste</h1>
-                <h1>Teste</h1>
-                <TextField
-                    className={classes.margin}
+                 <div class={classes.introText}>
+                    <p class={classes.welcomeText}> Welcome To RetailFinder!</p>
+                    <p class={classes.findText}> Find a local Retailer Near You</p>
+                    <TextField
+                    className={classes.myText}
                     fullWidth
                     id="input-with-icon-textfield"
                     label="TextField"
@@ -28,6 +27,8 @@ class ImagePage extends Component {
                     ),
                     }}
                 />
+                 </div>
+                
             </div>
         );
     }

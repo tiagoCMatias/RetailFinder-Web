@@ -4,6 +4,7 @@ export const styles = {
   },
   flex: {
     flex: 1,
+    color: '#fed136',
   },
   menuButton: {
     marginLeft: -12,
