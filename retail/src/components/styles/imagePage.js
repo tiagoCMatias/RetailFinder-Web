@@ -26,5 +26,9 @@ export const styles = theme => ({
     findText: {
       color: 'black',
       fontSize: '60px'
-    }
+    },
+    formControl: {
+      margin: theme.spacing.unit,
+      minWidth: 120,
+    },
 });

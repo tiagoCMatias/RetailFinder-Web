@@ -1,0 +1,37 @@
+card {
+    display: 'flex';
+}
+details {
+    display: 'flex';
+    flex-direction: 'column';
+}
+content {
+    flex: '1 0 auto';
+}
+cover {
+    width: 151;
+    height: 151;
+}
+.control {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.playIcon {
+    height: 38;
+    width: 38;
+}
+
+.star{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sectionGrid{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.actions{
+    align-items: right;
+}
